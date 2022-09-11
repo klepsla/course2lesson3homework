@@ -5,7 +5,7 @@ public class Car extends Transport {
     }
 
     public void updateTyre() {
-        System.out.println("Меняем покрышку");
+        System.out.println("Меняем покрышку машины");
     }
 
     @Override
