@@ -7,6 +7,10 @@ public abstract class Transport {
         this.wheelsCount = wheelsCount;
     }
 
+    public abstract void updateTyre();
+
+    public abstract void transportService();
+    
     public String getModelName() {
         return modelName;
     }
@@ -22,10 +26,4 @@ public abstract class Transport {
     public void setWheelsCount(int wheelsCount) {
         this.wheelsCount = wheelsCount;
     }
-
-    public abstract void updateTyre();
-
-    public abstract void transportService();
-
-    public abstract void checkEngine();
 }

@@ -1,4 +1,7 @@
-public class Bicycle extends Transport {
+public abstract class Bicycle extends Transport {
+
+    public String modelName;
+    public int wheelCount;
 
     public Bicycle(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
@@ -10,10 +13,6 @@ public class Bicycle extends Transport {
     }
     @Override
     public void transportService() {
-        updateTyre();
-    }
-    @Override
-    public void checkEngine() {
         updateTyre();
     }
 }
